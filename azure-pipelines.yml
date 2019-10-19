@@ -1,2 +1,8 @@
+stages:
+- stage: Deploy
+  jobs:
+  - job: Deploy
+    steps:
+    - script: echo Deploying the code!
 pool:
   vmImage: 'Ubuntu-16.04'
